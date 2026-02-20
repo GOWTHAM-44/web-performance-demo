@@ -25,7 +25,10 @@ public class WebPagePerformanceTest {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--start-maximized");
         // For CI machines (optional):
-        // options.addArguments("--headless=new");
+        options.addArguments("--headless=new");
+		options.addArguments("--no-sandbox");	
+
+		
  
         driver = new ChromeDriver(options);
         js = (JavascriptExecutor) driver;
