@@ -1,0 +1,13 @@
+<suite name="WebPerformanceSuite"> 
+
+  <test name="PerformanceTests"> 
+
+    <classes> 
+
+      <class name="demo.WebPagePerformanceTest"/> 
+
+    </classes> 
+
+  </test> 
+
+</suite>
